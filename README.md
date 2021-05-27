@@ -6,4 +6,4 @@ You have to input the information such as the network, array size, and so on...
 
 
 ### utils.ipynb
-Functions for calculating the computing cycle
+Functions for calculating the computing cycle.
