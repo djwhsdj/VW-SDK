@@ -1,10 +1,21 @@
 # VW-SDK (Variable-window SDK)
 ---
+
+## This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
+
+### main.ipynb
+You have to input the information such as the network, array size, and so on...
+
+
+### utils.ipynb
+Functions for calculating the computing cycle.
+
+---
 ## Mapping methods
 
 ### Im2col
-Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolled into the column.
-A kernel-sized window in an input feature map (IFM) is convolved with the kernel.
+#### Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolled into the column.
+#### A kernel-sized window in an input feature map (IFM) is convolved with the kernel.
 
 [1] K. Yanai, R. Tanno, and K. Okamoto, “Efficient mobile implementationof  a  cnn-based  object  recognition  system,”  inProceedings of the 24thACM international conference on Multimedia, 2016, pp. 362–366.
 
@@ -15,12 +26,3 @@ A kernel-sized window in an input feature map (IFM) is convolved with the kernel
 ### VW-SDK
 
 ---
-## This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
-
-### main.ipynb
-You have to input the information such as the network, array size, and so on...
-
-
-### utils.ipynb
-Functions for calculating the computing cycle.
-
