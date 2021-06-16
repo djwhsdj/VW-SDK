@@ -24,8 +24,8 @@ You can read the original pdf [here](https://ieeexplore.ieee.org/document/910465
 
 This mapping computes multiple windows instead of single window simultaneously in each cycle. To reuses the input data, this method forms the parallel window that is a set of windows. Thus, it obtains multiple output feature maps (OFMs) by utilizing the PIM array.
 
-### VW-SDK
-
+<!-- ### VW-SDK
+ -->
 ---
 
 <!-- This is a normal paragraph: -->
