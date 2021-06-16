@@ -12,7 +12,7 @@ You have to input the information such as the network, array size, and so on...
 These tables show the computign cycle according to the convolutional layer.
 We set the array size to 512x512, bit precision to 1.
 
-### +VGG13
+### + VGG13
 
 | **Image size** | **Conv layer** | **Im2col** | **SDK** | **VW-SDK** |
 |:---:|:---:|---:|---:|---:|
@@ -24,7 +24,7 @@ We set the array size to 512x512, bit precision to 1.
 | 56x56 | 3x3x256x256 | 14580 | 14580 | 10206 |
 
 
-### +Resnet-18
+### + Resnet-18
 
 | **Image size** | **Conv layer** | **Im2col** | **SDK** | **VW-SDK** |
 |:---:|:---:|---:|---:|---:|
