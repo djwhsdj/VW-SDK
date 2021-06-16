@@ -14,6 +14,7 @@ Functions for calculating the computing cycle.
 ## Mapping methods
 
 ### Im2col (Image to column)
+you can read the original [here][https://dl.acm.org/doi/10.1145/2964284.2967243]
 Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolled into the column. A kernel-sized window in an input feature map (IFM) is convolved with the kernel.
 
 
@@ -28,8 +29,8 @@ Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolle
 
 ---
 
-This is a normal paragraph:
+<!-- This is a normal paragraph: -->
 
-    this is a code
+<!--     this is a code -->
   
-end code block
+<!-- end code block -->
