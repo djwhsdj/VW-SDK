@@ -9,13 +9,12 @@
 You have to input the information such as the network, array size, and so on...
 
 ## Results
-These table
+These tables show the computign cycle according to the convolutional layer.
+We set the array size to 512x512, bit precision to 1.
 
-### Resnet-18
-This table shows the computing cycle according to the convolutional layer.
-We set the array size to 512x512,bit precision to 1.
+### VGG13
 
-| *Image size* | Conv layer | Im2col | SDK | VW-SDK |
+| **Image size** | **Conv layer** | **Im2col** | **SDK** | **VW-SDK** |
 |:---:|:---:|---:|---:|---:|
 | 224x224 | 3x3x3x64 | 49284 | 12321 | 5328 |
 | 224x224 | 3x3x64x64 | 98568 | 24642 | 23976 |
@@ -26,10 +25,8 @@ We set the array size to 512x512,bit precision to 1.
 
 
 ### Resnet-18
-This table shows the computing cycle according to the convolutional layer.
-We set the array size to 512x512,bit precision to 1.
 
-| Image size | Conv layer | Im2col | SDK | VW-SDK |
+| **Image size** | **Conv layer** | **Im2col** | **SDK** | **VW-SDK** |
 |:---:|:---:|---:|---:|---:|
 | 112x112 | 7x7x3x64 | 11236 | 2809 | 1272 |
 | 56x56 | 3x3x64x64 | 5832 | 1458 | 1458 |
