@@ -15,7 +15,7 @@ We set the array size to 512x512, bit precision to 1.
 ### * VGG13
 
 | **Image size** | **Conv layer** | **Im2col** | **SDK** | **VW-SDK** | **Optimal parallel window** |
-|:---:|:---:|---:|---:|---:|---:|
+|:---:|:---:|---:|---:|---:|:---:|
 | 224x224 | 3x3x3x64 | 49284 | 12321 | 5328 | 34x3x3x16 |
 | 224x224 | 3x3x64x64 | 98568 | 24642 | 23976 | 10x3x17x64 |
 | 112x112 | 3x3x64x128 | 24200 | 6050 | 6050 | 4x4x32x128 |
@@ -27,7 +27,7 @@ We set the array size to 512x512, bit precision to 1.
 ### * Resnet-18
 
 | **Image size** | **Conv layer** | **Im2col** | **SDK** | **VW-SDK** | **Optimal parallel window** |
-|:---:|:---:|---:|---:|---:|---:|
+|:---:|:---:|---:|---:|---:|:---:|
 | 112x112 | 7x7x3x64 | 11236 | 2809 | 1272 | 22x7x3x32 |
 | 56x56 | 3x3x64x64 | 5832 | 1458 | 1458 | 10x3x17x64 |
 | 28x28 | 3x3x64x128 | 1352 | 338 | 338 | 4x4x32x128 |
