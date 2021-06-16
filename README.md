@@ -30,6 +30,6 @@ Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolle
 
 This is a normal paragraph:
 
-  this is a code
+    this is a code
   
 end code block
