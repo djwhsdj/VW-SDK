@@ -9,7 +9,6 @@
 You have to input the information such as the network, array size, and so on...
 
 ## Results
-<table>
 | Conv layer | Im2col | SDK | VW-SDK |
 |---|:---:|---:|
 |'sate'| 1 | 2 |
