@@ -14,9 +14,7 @@ Functions for calculating the computing cycle.
 ## Mapping methods
 
 ### Im2col
-Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolled into the column.
-
-A kernel-sized window in an input feature map (IFM) is convolved with the kernel.
+Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolled into the column. A kernel-sized window in an input feature map (IFM) is convolved with the kernel.
 
 
 + [1] K. Yanai, R. Tanno, and K. Okamoto, “Efficient mobile implementationof  a  cnn-based  object  recognition  system,”  inProceedings of the 24thACM international conference on Multimedia, 2016, pp. 362–366.
