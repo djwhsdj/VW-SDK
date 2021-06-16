@@ -12,7 +12,11 @@ You have to input the information such as the network, array size, and so on...
 | Conv layer | Im2col | SDK | VW-SDK |
 |---|:---:|---:|
 |'sate'| 1 | 2 |
- 
+ |제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 ---
 ## Mapping methods
 
