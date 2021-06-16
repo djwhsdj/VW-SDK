@@ -8,6 +8,10 @@
 ### main.ipynb
 You have to input the information such as the network, array size, and so on...
 
+## Results
+| Conv layer | Im2col | SDK | VW-SDK |
+|---|:---:|---:|
+
 ---
 ## Mapping methods
 
