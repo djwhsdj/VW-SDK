@@ -6,7 +6,6 @@
 ### main.ipynb
 You have to input the information such as the network, array size, and so on...
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 ### utils.ipynb
 Functions for calculating the computing cycle.
 
