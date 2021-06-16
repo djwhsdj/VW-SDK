@@ -9,7 +9,7 @@
 You have to input the information such as the network, array size, and so on...
 
 ## Results
-These tables show the computign cycle according to the convolutional layer.
+These tables show the computing cycles according to the convolutional layer.
 We set the array size to 512x512, bit precision to 1.
 
 ### * VGG13
