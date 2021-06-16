@@ -9,20 +9,34 @@
 You have to input the information such as the network, array size, and so on...
 
 ## Results
+These table
+
 ### Resnet-18
 This table shows the computing cycle according to the convolutional layer.
 We set the array size to 512x512,bit precision to 1.
 
 | Image size | Conv layer | Im2col | SDK | VW-SDK |
-|---|---|:---:|---:|----:|
+|:---:|:---:|---:|---:|---:|
+| 224x224 | 3x3x3x64 | 49284 | 12321 | 5328 |
+| 224x224 | 3x3x64x64 | 98568 | 24642 | 23976 |
+| 112x112 | 3x3x64x128 | 24200 | 6050 | 6050 |
+| 112x112 | 3x3x128x128 | 36300 | 36300 | 12100 |
+| 56x56 | 3x3x128x256 | 8748 | 8748 | 5832 |
+| 56x56 | 3x3x256x256 | 14580 | 14580 | 10206 |
+
+
+### Resnet-18
+This table shows the computing cycle according to the convolutional layer.
+We set the array size to 512x512,bit precision to 1.
+
+| Image size | Conv layer | Im2col | SDK | VW-SDK |
+|:---:|:---:|---:|---:|---:|
 | 112x112 | 7x7x3x64 | 11236 | 2809 | 1272 |
-| 56x56 | 7x7x3x64 | 5832 | 1458 | 1458 |
-| 28x28 | 7x7x3x64 | 1352 | 338 | 338 |
-| 28x28 | 7x7x3x64 | 2028 | 2028 | 676 |
-| 14x14 | 7x7x3x64 | 432 | 432 | 288 |
-| 14x14 | 7x7x3x64 | 720 | 720 | 504 |
-| 7x7 | 7x7x3x64 | 125 | 125 | 125 |
-| 7x7 | 7x7x3x64 | 225 | 225 | 225 |
+| 56x56 | 3x3x64x64 | 5832 | 1458 | 1458 |
+| 28x28 | 3x3x64x128 | 1352 | 338 | 338 |
+| 28x28 | 3x3x128x128 | 2028 | 2028 | 676 |
+| 14x14 | 3x3x128x256 | 432 | 432 | 288 |
+| 14x14 | 3x3x256x256 | 720 | 720 | 504 |
 
 ---
 ## Mapping methods
