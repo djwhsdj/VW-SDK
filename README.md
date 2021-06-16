@@ -15,7 +15,7 @@ These table
 This table shows the computing cycle according to the convolutional layer.
 We set the array size to 512x512,bit precision to 1.
 
-| Image size | Conv layer | Im2col | SDK | VW-SDK |
+| *Image size* | Conv layer | Im2col | SDK | VW-SDK |
 |:---:|:---:|---:|---:|---:|
 | 224x224 | 3x3x3x64 | 49284 | 12321 | 5328 |
 | 224x224 | 3x3x64x64 | 98568 | 24642 | 23976 |
