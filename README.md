@@ -1,12 +1,12 @@
 # VW-SDK : An Efficient Convolutional Weight Mapping Algorithm Using Shifted and Duplicated Kernel with Variable Windows.
 ---
 
-## This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
 ## requirements
 + python
 
 ### main.ipynb
-You have to input the information such as the network, array size, and so on...
+* This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
+* You have to input the information such as the network, array size, and so on...
 
 ## Results
 These tables show the computing cycles according to the convolutional layer.
