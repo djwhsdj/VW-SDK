@@ -1,4 +1,4 @@
-# VW-SDK (Variable-window SDK)
+# VW-SDK : An Efficient Convolutional Weight Mapping Algorithm Using Shifted and Duplicated Kernel with Variable Windows.
 ---
 
 ## This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
