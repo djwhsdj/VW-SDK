@@ -22,7 +22,7 @@ Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolle
 ### SDK (Shift and Duplicate kernel)
 You can read the original pdf [here](https://ieeexplore.ieee.org/document/9104658)
 
-+ [2] Y.  Zhang,  G.  He,  G.  Wang,  and  Y.  Li,  “Efficient  and  robust  rram-based convolutional weight mapping with shifted and duplicated kernel,”IEEE Transactions on Computer-Aided Design of Integrated Circuitsand Systems, 2020.
+This mapping computes multiple windows instead of single window simultaneously in each cycle.To reuses the input data, this method forms the parallel window that is a set of windows. Thus, it obtains multiple output feature maps (OFMs) by utilizing the PIM array.
 
 ### VW-SDK
 
