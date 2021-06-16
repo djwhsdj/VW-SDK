@@ -17,12 +17,12 @@ Functions for calculating the computing cycle.
 Each kernel with size KxKxIC (where K is kernel, IC is input channel) is unrolled into the column. A kernel-sized window in an input feature map (IFM) is convolved with the kernel.
 
 
-+ [1] K. Yanai, R. Tanno, and K. Okamoto, “Efficient mobile implementationof  a  cnn-based  object  recognition  system,”  inProceedings of the 24thACM international conference on Multimedia, 2016, pp. 362–366.
+* [1] K. Yanai, R. Tanno, and K. Okamoto, “Efficient mobile implementationof  a  cnn-based  object  recognition  system,”  inProceedings of the 24thACM international conference on Multimedia, 2016, pp. 362–366.
 
 ### SDK (Shift and Duplicate kernel)
 
 
-+ [2] Y.  Zhang,  G.  He,  G.  Wang,  and  Y.  Li,  “Efficient  and  robust  rram-based convolutional weight mapping with shifted and duplicated kernel,”IEEE Transactions on Computer-Aided Design of Integrated Circuitsand Systems, 2020.
+* [2] Y.  Zhang,  G.  He,  G.  Wang,  and  Y.  Li,  “Efficient  and  robust  rram-based convolutional weight mapping with shifted and duplicated kernel,”IEEE Transactions on Computer-Aided Design of Integrated Circuitsand Systems, 2020.
 
 ### VW-SDK
 
