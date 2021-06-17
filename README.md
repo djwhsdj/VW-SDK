@@ -8,9 +8,10 @@
 + python
 
 ## Usage
-You have to input the parameters like image size, kernel size, the number of channels, and so on ...
+You have to input the parameters like image size, kernel size, the number of channels, the number of layers and so on ...
 
-### example
+### example1
+With list, you can input the parameters.
 
     """
     Resnet18
