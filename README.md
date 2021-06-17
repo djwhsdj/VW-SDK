@@ -28,6 +28,10 @@ Also, you can input the parameters directly.
 
 ![](./image.PNG)
 
+### After example1 or exampl2
+Input the array size and bit precision.
+
+![](./image2.PNG)
 
 ### main.ipynb
 * This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
