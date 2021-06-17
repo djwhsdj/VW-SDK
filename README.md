@@ -10,7 +10,7 @@
 ## Usage
 You have to input the parameters like image size, kernel size, the number of channels, and so on ...
 
-### example1
+### Example1
 With list, you can input the parameters.
 
     """
@@ -23,6 +23,7 @@ With list, you can input the parameters.
     kernel = Res_kernel
     channel = Res_channel
     
+### Example2
 Also, you can input the parameters directly.
 
 ![](./image.PNG)
