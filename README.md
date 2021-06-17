@@ -30,7 +30,7 @@ Also, you can input the parameters directly.
 
 ![](./image.PNG)
 
-### After example1 or exampl2
+### After example1 or example2
 Input the array size and bit precision.
 
 ![](./image2.PNG)
