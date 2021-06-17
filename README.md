@@ -8,7 +8,14 @@
 + python
 
 ## Usage
-...
+You have to input the parameters like image size, kernel size, the number of channels, and so on ...
+### example
+
+This is a normal paragraph:
+
+    this is a code
+  
+end code block 
 
 ### main.ipynb
 * This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
@@ -65,12 +72,3 @@ You can read the original pdf [here](https://arxiv.org/abs/1409.1556)
 You can read the original pdf [here](https://ieeexplore.ieee.org/document/8246704)
 
 
-<!-- ### VW-SDK
- -->
----
-
-<!-- This is a normal paragraph: -->
-
-<!--     this is a code -->
-  
-<!-- end code block -->
