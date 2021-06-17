@@ -9,12 +9,21 @@
 
 ## Usage
 You have to input the parameters like image size, kernel size, the number of channels, and so on ...
+
 ### example
 
-This is a normal paragraph:
+    """
+    Resnet18
+    """
+    Res_image = [112, 56, 28, 28, 14, 14, 7, 7]
+    Res_kernel = [7, 3, 3, 3, 3, 3, 3, 3]
+    Res_channel = [3, 64, 64, 128, 128, 256, 256, 512, 512]
+    n_layers = [1, 4, 2, 2, 2, 2, 2, 2]
 
-    this is a code
-  
+    image = Res_image
+    kernel = Res_kernel
+    channel = Res_channel
+    
 end code block 
 
 ### main.ipynb
