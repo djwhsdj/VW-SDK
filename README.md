@@ -19,8 +19,6 @@ With list, you can input the parameters.
     Res_image = [112, 56, 28, 28, 14, 14, 7, 7]
     Res_kernel = [7, 3, 3, 3, 3, 3, 3, 3]
     Res_channel = [3, 64, 64, 128, 128, 256, 256, 512, 512]
-<!--     n_layers = [1, 4, 2, 2, 2, 2, 2, 2] -->
-
     image = Res_image
     kernel = Res_kernel
     channel = Res_channel
