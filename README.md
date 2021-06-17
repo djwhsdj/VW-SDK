@@ -24,7 +24,7 @@ With list, you can input the parameters.
     channel = Res_channel
     
 Also, you can input the parameters directly.
-![image][image.PNG]
+![image][./image.PNG]
 
 ### main.ipynb
 * This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
