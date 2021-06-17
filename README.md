@@ -7,6 +7,9 @@
 ## requirements
 + python
 
+## usage
+...
+
 ### main.ipynb
 * This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
 * You have to input the information such as the network, array size, and so on...
