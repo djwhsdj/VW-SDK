@@ -8,7 +8,9 @@ In processing-in-memory (PIM) architectures forconvolutional neural network (CNN
 + python
 
 ## Usage
-You have to input the parameters like image size, kernel size, the number of channels, and so on ...
+
+### main.ipynb
+* This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
 
 ### Example1
 With list, you can input the parameters.
@@ -32,10 +34,6 @@ Also, you can input the parameters directly.
 Input the array size and bit precision.
 
 ![](./image2.PNG)
-
-### main.ipynb
-* This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
-* You have to input the information such as the network, array size, and so on...
 
 ## Results
 These tables show the computing cycles according to the convolutional layer.
