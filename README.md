@@ -49,6 +49,16 @@ You can read the original pdf [here](https://ieeexplore.ieee.org/document/910465
 
 This mapping computes multiple windows instead of single window simultaneously in each cycle. To reuses the input data, this method forms the parallel window that is a set of windows. Thus, it obtains multiple output feature maps (OFMs) by utilizing the PIM array.
 
+---
+## Convolutional Neural Network (CNN)
+### VGGnet
+You can read the original pdf [here](https://arxiv.org/abs/1409.1556)
+
+
+### Resnet
+You can read the original pdf [here](https://ieeexplore.ieee.org/document/8246704)
+
+
 <!-- ### VW-SDK
  -->
 ---
