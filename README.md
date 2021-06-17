@@ -25,7 +25,7 @@ With list, you can input the parameters.
     
 Also, you can input the parameters directly.
 
-![](./image.png)
+![](./image.PNG)
 
 
 ### main.ipynb
