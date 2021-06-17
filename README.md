@@ -24,6 +24,7 @@ With list, you can input the parameters.
     channel = Res_channel
     
 Also, you can input the parameters directly.
+
 ![image][https://github.com/djwhsdj/VW-SDK/blob/main/image.PNG]
 
 ### main.ipynb
