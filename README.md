@@ -15,10 +15,12 @@
 ### Example
 With list, you have to input the PIM array size.
 ex) [rows, columns]
+
 ![](./array.PNG)
 
 And the, choice the network.
 In these form, you can input other networks. 
+
 ![](./network.PNG)
 
 ## Results
