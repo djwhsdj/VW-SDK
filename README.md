@@ -12,28 +12,14 @@
 ### main.ipynb
 * This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
 
-### Example1
-With list, you can input the parameters.
+### Example
+With list, you have to input the PIM array size.
+ex) [rows, columns]
+![array](https://user-images.githubusercontent.com/57951442/132305459-7fb77663-9bec-4cea-a95e-596e45900b87.PNG)
 
-    """
-    Resnet18
-    """
-    Res_image = [112, 56, 28, 28, 14, 14, 7, 7]
-    Res_kernel = [7, 3, 3, 3, 3, 3, 3, 3]
-    Res_channel = [3, 64, 64, 128, 128, 256, 256, 512, 512]
-    image = Res_image
-    kernel = Res_kernel
-    channel = Res_channel
-    
-### Example2
-Also, you can input the parameters directly.
-
-![](./image.PNG)
-
-### After example1 or example2
-Input the array size and bit precision.
-
-![](./image2.PNG)
+And the, choice the network.
+In these form, you can input other networks. 
+![network](https://user-images.githubusercontent.com/57951442/132305634-ff83904b-a448-4314-af4e-ba06618cca92.PNG)
 
 ## Results
 These tables show the computing cycles according to the convolutional layer.
