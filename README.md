@@ -15,11 +15,11 @@
 ### Example
 With list, you have to input the PIM array size.
 ex) [rows, columns]
-![array](https://user-images.githubusercontent.com/57951442/132305459-7fb77663-9bec-4cea-a95e-596e45900b87.PNG)
+![](./array.PNG)
 
 And the, choice the network.
 In these form, you can input other networks. 
-![network](https://user-images.githubusercontent.com/57951442/132305634-ff83904b-a448-4314-af4e-ba06618cca92.PNG)
+![](./network.PNG)
 
 ## Results
 These tables show the computing cycles according to the convolutional layer.
