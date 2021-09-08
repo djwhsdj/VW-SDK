@@ -19,6 +19,7 @@ ex) [rows, columns]
 ![](./array.PNG)
 
 And then, choice the network.
+
 In these form, you can input other networks. 
 
 ![](./network.PNG)
