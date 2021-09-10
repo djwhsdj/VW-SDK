@@ -13,6 +13,13 @@ The simulation with a 512x512 PIM array and Resnet-18 shows that VW-SDK improves
 
 ## Usage
 
+### main.py
+* This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
+* You have to input some parameters for calculating
+
+### function.py
+* This code includes functions for VW-SDK and shows the information of the network and PIM array.
+
 ### main.ipynb
 * This code calculates the computing cycle according to the mapping methods (im2col, SDK, VW-SDK).
 
