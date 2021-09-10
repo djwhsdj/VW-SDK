@@ -2,7 +2,12 @@
 ---
 ## Abstract
 ...
-<!-- In processing-in-memory (PIM) architectures forconvolutional neural network (CNN) inference, the mappingscheme of the CNN weights to the PIM array decides the numberof computing cycles, which determines the computational latencyand energy. A recent study proposed shifted and duplicatedkernel (SDK) mapping that reuses the input feature mapswith a unit of a parallel window, which is convolved withduplicated kernels to obtain multiple output elements in parallel.However, the existing SDK-based mapping algorithm does notalways provide optimal mapping because it maps a square-shaped parallel window having the entire channels at one cycle.In this paper, we introduce a novel mapping algorithm calledvariable-window SDK (VW-SDK), which adaptively determinesthe shape of the parallel window that leads to the minimumcomputing cycles for a given convolutional layer and PIM array.By allowing rectangular-shaped windows with partial channels,VW-SDK better utilizes PIM array, thereby reducing the numberof inference cycles. The simulation with a 512×512 PIM arrayand Resnet-18 shows that VW-SDK improves the computingspeed by 2.78×compared to the existing SDK algorithm. -->
+With their high energy efficiency, processing-in-memory (PIM) arrays are increasingly being used for convolutional neural network (CNN) inference. In PIM-based CNN inference, the computational latency and energy are dependent on how the CNN weights are mapped to the PIM array.
+A recent study proposed shifted and duplicated kernel (SDK) mapping that reuses the input feature maps with a unit of a parallel window, which is convolved with duplicated kernels to obtain multiple output elements in parallel.
+However, the existing SDK-based mapping algorithm does not always result in the minimum computing cycles because it only maps a square-shaped parallel window with the entire channels.
+In this paper, we introduce a novel mapping algorithm called variable-window SDK (VW-SDK), which adaptively determines the shape of the parallel window that leads to the minimum computing cycles for a given convolutional layer and PIM array.
+By allowing rectangular-shaped windows with partial channels, VW-SDK better utilizes PIM array, thereby further reducing the number of computing cycles.
+The simulation with a 512x512 PIM array and Resnet-18 shows that VW-SDK improves the inference speed by 1.69x compared to the existing SDK-based algorithm.
 
 ## Requirements
 + python3.x+
