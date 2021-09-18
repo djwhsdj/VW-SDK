@@ -193,7 +193,7 @@ def result (network, image, array, kernel, channel) :
         if i == 0 :
           print("      - shape of PW = {} x {} x {} x {}".format(int(math.sqrt(PW_SDK[i])), int(math.sqrt(PW_SDK[i])), channel[i], channel[i+1]))
         else :
-          print("      - shape of PW = {} x {} x {} x {}".format(int(math.sqrt(PW_SDK[i])), int(math.sqrt(PW_SDK[i])), channel[i], channel[i]))
+          print("      - shape of PW = {} x {} x {} x {}".format(int(math.sqrt(PW_SDK[i])), int(math.sqrt(PW_SDK[i])), channel[i], channel[i+1]))
 
         if CC[i] >= CC_im2col[i] :
           CC[i] = CC_im2col[i]
@@ -242,7 +242,7 @@ def result (network, image, array, kernel, channel) :
         if i == 0 :
           print("      - shape of PW = {} x {} x {} x {}".format(int(math.sqrt(PW_SDK[i])), int(math.sqrt(PW_SDK[i])), channel[i], channel[i+1]))
         else :
-          print("      - shape of PW = {} x {} x {} x {}".format(int(math.sqrt(PW_SDK[i])), int(math.sqrt(PW_SDK[i])), channel[i], channel[i+1]))
+          print("      - shape of PW = {} x {} x {} x {}".format(int(math.sqrt(PW_SDK[i])), int(math.sqrt(PW_SDK[i])), channel[i], channel[i]))
 
         if CC[i] > CC_im2col[i] :
           CC[i] = CC_im2col[i]
